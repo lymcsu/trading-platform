@@ -17,7 +17,7 @@ export default {
 </script>
 
 <style>
-@import './assets/mixin.scss'
+@import './assets/_mixin.scss'
 
 html, body{
     font: 14px/1.4 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', 'arial', 'Tahoma', 'SimSun', 'sans-serif';

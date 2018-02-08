@@ -1,10 +1,10 @@
 <template>
     <div id="navBar">
         <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect">
-              <el-menu-item index="1"><a href="#">图片</a></el-menu-item>
-              <el-menu-item index="2"><a href="#">交易中心</a></el-menu-item>
-              <el-menu-item index="3"><a href="#">帮助中心</a></el-menu-item>
-              <el-menu-item index="4"><a href="#">公告中心</a></el-menu-item>
+              <el-menu-item index="1"><router-link :to="{path:'/home', query: {}}">图片</router-link></el-menu-item>
+              <el-menu-item index="2"><router-link :to="{path:'/home', query: {}}">交易中心</router-link></el-menu-item>
+              <el-menu-item index="3"><router-link :to="{path:'/help-center', query: {}}">帮助中心</router-link></el-menu-item>
+              <el-menu-item index="4"><router-link :to="{path:'/news', query: {}}">公告中心</router-link></el-menu-item>
               <el-submenu index="5">
                 <template slot="title">最新活动</template>
                 <el-menu-item index="5-1"><a href="#" target="_blank">矿机售卖</a></el-menu-item>
