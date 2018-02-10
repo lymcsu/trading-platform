@@ -16,14 +16,14 @@ export default {
 }
 </script>
 
-<style>
-@import './assets/_mixin.scss'
+<style lang="scss">
+@import './assets/_mixin.scss';
 
-html, body{
+html, body {
     font: 14px/1.4 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', 'arial', 'Tahoma', 'SimSun', 'sans-serif';
     width: 100%;
     height: 100%;
-    margin: 0;
+    margin: 0;  
     min-height: 600px;
 }
 body, dd, dl, dt, h2, h3, h4, h6, li, ol, p, ul{
@@ -33,13 +33,14 @@ body, dd, dl, dt, h2, h3, h4, h6, li, ol, p, ul{
     -webkit-text-size-adjust: none;
 }
 body{
-    background-color: #eff3f6;
-    overflow-x: hidden;
+    background-color: #fff;
+    overflow-x: auto;
     overflow-y: scroll;
 }
 img{
     border: 0;
 }
+
 em, i, h2, h3, h4, h6{
     font-style: normal;
 }

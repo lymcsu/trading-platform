@@ -19,12 +19,12 @@
                 <el-menu-item index="6-1"><a href="#" target="_blank">CK.USD & ETH & BTC</a></el-menu-item>
                 <el-menu-item index="6-2"><a href="#" target="_blank">代理充值</a></el-menu-item>
               </el-submenu>
-              <el-menu-item index="7"><a href="#" target="_blank">(登陆 | 注册)</a></el-menu-item>
-              <el-submenu index="8">
+              <el-submenu style="float:right" index="8">
                 <template slot="title">当前语言</template>
                 <el-menu-item index="8-1">香港</el-menu-item>
                 <el-menu-item index="8-2">英国</el-menu-item>
               </el-submenu>
+              <el-menu-item style="float:right" index="7"><a href="#" target="_blank">(登陆 | 注册)</a></el-menu-item>
         </el-menu>
     </div>
 </template>
@@ -56,4 +56,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+#navBar {
+  z-index: 9999;
+  position: relative;
+}
 </style>
